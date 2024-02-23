@@ -35,6 +35,7 @@ public class Driver {
                 case "remote-chrome":
                     try {
                         // assign your grid server address
+                        // shut down Selenium-Grid instance Feb 23
                         String gridAddress = "3.88.175.0";
                         URL url = new URL("http://" + gridAddress + ":4444/wd/hub");
                         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
